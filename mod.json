@@ -1,0 +1,22 @@
+{
+	"geode": "4.0.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"version": "v1.0.0",
+	"id": "yourname.predictive-buffer",
+	"name": "Predictive Buffer",
+	"developer": "YourName",
+	"description": "Input buffer assist: early jump clicks are held and fired on the first frame you can actually jump. Press F6 to cycle the window (10 / 5 / 2 steps / off).",
+	"settings": {
+		"safe-mode": {
+			"type": "bool",
+			"name": "Block leaderboard/stat submission",
+			"description": "If the assist fired during a run, the completion is treated like a test-mode run so it can't be submitted as a legit record.",
+			"default": true
+		}
+	}
+}
